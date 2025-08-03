@@ -1,0 +1,22 @@
+[INFO] - {03-08-2025 12:31:20} [main] [Listeners.TestNGListeners] - Execution started
+[INFO] - {03-08-2025 12:31:20} [main] [Utils.DataUtil.ReadPropertyFiles] - property file loaded
+[INFO] - {03-08-2025 12:31:20} [main] [Utils.DataUtil.ReadJsonFile] - json file loaded
+[INFO] - {03-08-2025 12:31:20} [main] [Listeners.TestNGListeners] - previous allure folder cleaned
+[INFO] - {03-08-2025 12:31:20} [main] [Listeners.TestNGListeners] - previous log folder cleaned
+[INFO] - {03-08-2025 12:31:20} [main] [Listeners.TestNGListeners] - Test SuiteappiumTwoStarted
+[INFO] - {03-08-2025 12:31:56} [main] [Listeners.TestNGListeners] - Test Caseend2EndFlowStarted
+[INFO] - {03-08-2025 12:32:04} [main] [Pages.P01_LoginPage] - username entered:standard_user
+[INFO] - {03-08-2025 12:32:04} [main] [Pages.P01_LoginPage] - password entered:secret_sauce
+[INFO] - {03-08-2025 12:32:05} [main] [Pages.P01_LoginPage] - login button clicked
+[INFO] - {03-08-2025 12:32:12} [main] [Pages.P02_HomePage] - home page validated expected text:PRODUCTS
+[INFO] - {03-08-2025 12:32:17} [main] [Pages.P03_CartPage] - cart page validated expected text:YOUR CART
+[INFO] - {03-08-2025 12:32:21} [main] [Pages.P04_CheckoutPage] - checkout page validated expected text:CHECKOUT: INFORMATION
+[INFO] - {03-08-2025 12:32:28} [main] [Pages.P05_OverviewPage] - overview page validated expected text:CHECKOUT: OVERVIEW
+[INFO] - {03-08-2025 12:32:31} [main] [Pages.P05_OverviewPage] - scroll downtrue
+[INFO] - {03-08-2025 12:32:35} [main] [Pages.P06_CompletePage] - complete page validated expected text:CHECKOUT: COMPLETE!
+[INFO] - {03-08-2025 12:32:35} [main] [Pages.P06_CompletePage] - complete page validated expected text:THANK YOU FOR YOU ORDER
+[INFO] - {03-08-2025 12:32:35} [main] [Pages.P06_CompletePage] - clicked back home button
+[INFO] - {03-08-2025 12:32:37} [main] [Pages.P02_HomePage] - home page validated expected text:PRODUCTS
+[INFO] - {03-08-2025 12:32:37} [main] [Listeners.TestNGListeners] - Test Caseend2EndFlowPassed
+[INFO] - {03-08-2025 12:32:42} [main] [Listeners.TestNGListeners] - Test SuiteappiumTwoFinished
+[INFO] - {03-08-2025 12:32:42} [main] [Listeners.TestNGListeners] - Execution finished

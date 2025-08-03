@@ -1,0 +1,11 @@
+{
+  "valid_Credential_Data": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+  "userInfo_Data": {
+    "firstname": "John",
+    "lastname": "Doe",
+    "zipcode": "12345"
+  }
+}
