@@ -46,33 +46,33 @@ public class TestNGListeners implements IExecutionListener, IInvokedMethodListen
     @Override
 
     public void onTestStart(ITestResult result) {
-        LogClass.info("Test Case", result.getName(), "Started");
+        LogClass.info("Test Case ", result.getName(), "Started");
     }
 
     @Override
     public void onTestSuccess(ITestResult result) {
-        LogClass.info("Test Case", result.getName(), "Passed");
+        LogClass.info("Test Case ", result.getName(), "Passed");
     }
 
     @Override
     public void onTestFailure(ITestResult result) {
-        LogClass.info("Test Case", result.getName(), "Failed");
+        LogClass.info("Test Case ", result.getName(), "Failed");
     }
 
     @Override
     public void onTestSkipped(ITestResult result) {
-        LogClass.info("Test Case", result.getName(), "Skipped");
+        LogClass.info("Test Case ", result.getName(), "Skipped");
     }
 
 
     @Override
     public void onStart(ITestContext context) {
-        LogClass.info("Test Suite", context.getName(), "Started");
+        LogClass.info("Test Suite ", context.getName(), "Started");
     }
 
     @Override
     public void onFinish(ITestContext context) {
-        LogClass.info("Test Suite", context.getName(), "Finished");
+        LogClass.info("Test Suite ", context.getName(), "Finished");
     }
 
 
