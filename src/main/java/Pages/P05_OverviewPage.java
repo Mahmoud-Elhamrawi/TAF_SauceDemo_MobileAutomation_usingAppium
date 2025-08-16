@@ -11,6 +11,8 @@ import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 
+import static Utils.UtilClasses.Util.scrollToEle;
+
 public class P05_OverviewPage {
 
     //Variables
@@ -26,6 +28,14 @@ public class P05_OverviewPage {
     private final By finish_Btn = AppiumBy.xpath("//android.view.ViewGroup[@content-desc=\"test-FINISH\"]");
 
     //Methods
+    @Step("Scroll down")
+    public P05_OverviewPage scrollDown2() {
+        scrollToEle(driver, "FINISH");
+        return this;
+    }
+
+
+
     @Step("Scroll down")
     public P05_OverviewPage scrollDown() {
         Dimension size = driver.manage().window().getSize();

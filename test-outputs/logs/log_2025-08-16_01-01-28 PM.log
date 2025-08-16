@@ -1,0 +1,21 @@
+[INFO] - {16-08-2025 13:01:28} [main] [Listeners.TestNGListeners] - Execution started
+[INFO] - {16-08-2025 13:01:28} [main] [Utils.DataUtil.ReadPropertyFiles] - property file loaded
+[INFO] - {16-08-2025 13:01:28} [main] [Utils.DataUtil.ReadJsonFile] - json file loaded
+[INFO] - {16-08-2025 13:01:29} [main] [Listeners.TestNGListeners] - previous allure folder cleaned
+[INFO] - {16-08-2025 13:01:29} [main] [Listeners.TestNGListeners] - previous log folder cleaned
+[INFO] - {16-08-2025 13:01:34} [main] [Listeners.TestNGListeners] - Test Suite appiumTwoStarted
+[INFO] - {16-08-2025 13:01:52} [main] [Listeners.TestNGListeners] - Test Case end2EndFlowStarted
+[INFO] - {16-08-2025 13:01:55} [main] [Pages.P01_LoginPage] - username entered:standard_user
+[INFO] - {16-08-2025 13:01:56} [main] [Pages.P01_LoginPage] - password entered:secret_sauce
+[INFO] - {16-08-2025 13:01:57} [main] [Pages.P01_LoginPage] - login button clicked
+[INFO] - {16-08-2025 13:01:59} [main] [Pages.P02_HomePage] - home page validated expected text:PRODUCTS
+[INFO] - {16-08-2025 13:02:03} [main] [Pages.P03_CartPage] - cart page validated expected text:YOUR CART
+[INFO] - {16-08-2025 13:02:05} [main] [Pages.P04_CheckoutPage] - checkout page validated expected text:CHECKOUT: INFORMATION
+[INFO] - {16-08-2025 13:02:09} [main] [Pages.P05_OverviewPage] - overview page validated expected text:CHECKOUT: OVERVIEW
+[INFO] - {16-08-2025 13:02:16} [main] [Pages.P06_CompletePage] - complete page validated expected text:CHECKOUT: COMPLETE!
+[INFO] - {16-08-2025 13:02:16} [main] [Pages.P06_CompletePage] - complete page validated expected text:THANK YOU FOR YOU ORDER
+[INFO] - {16-08-2025 13:02:17} [main] [Pages.P06_CompletePage] - clicked back home button
+[INFO] - {16-08-2025 13:02:18} [main] [Pages.P02_HomePage] - home page validated expected text:PRODUCTS
+[INFO] - {16-08-2025 13:02:18} [main] [Listeners.TestNGListeners] - Test Case end2EndFlowPassed
+[INFO] - {16-08-2025 13:02:20} [main] [Listeners.TestNGListeners] - Test Suite appiumTwoFinished
+[INFO] - {16-08-2025 13:02:20} [main] [Listeners.TestNGListeners] - Execution finished
